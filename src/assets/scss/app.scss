@@ -1,0 +1,98 @@
+html,
+body {
+  background-color: #e4ebf7;
+}
+body {
+  height: 100%;
+  width: 100%;
+}
+
+$maxWidth: 600px;
+#app {
+  background-color: #ffffff;
+  width: 100%;
+  min-height: 100%;
+  box-sizing: border-box;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+  max-width: $maxWidth;
+  margin: 0 auto;
+  /deep/ .van-tabbar {
+    max-width: $maxWidth;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
+
+.shadow {
+  box-shadow: 0 1px 4px rgba(0, 21, 41, .08);
+}
+
+.bg-header {
+  background-color: #eee;
+}
+
+.bg-white {
+  background-color: #ffffff;
+}
+
+.bg-gray {
+  background-color: #f8f8f8;
+}
+
+$color-primary: #1989fa;
+
+.color-primary {
+  color: $color-primary;
+}
+
+.color-font {
+  color: #424446;
+}
+
+.align {
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+}
+
+.align-center {
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  flex-direction:column
+}
+.shadow{
+  box-shadow: 0 2px 7px rgba(0,0,0,.15);
+}
+.color333{
+  color: #333333;
+}
+.color999{
+  color: #999999;
+}
+.color-ccc{
+  color: #cccccc;
+}
+.min-h-full{min-height: 100% !important;}
+
+.max-w-h-full{
+  max-width: 100%;
+  max-height: 100%;
+}
+.richText{
+  img{
+    max-width: 100% !important;
+  }
+}
+
+.object-contain{
+  object-fit: contain !important;
+}
+
+.sticky {
+  position: sticky;
+}
+// img {
+//   transform: scale(1) rotate(0) translate3d(0, 0, 0);
+// }
